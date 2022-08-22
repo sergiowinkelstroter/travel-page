@@ -4,9 +4,9 @@ import { Footer } from "../components/Footer";
 
 import { NavBar } from "../components/NavBar";
 import { Notify } from "../components/Notify";
-import { Destination } from "./destination";
-import { MainPage } from "./MainPage";
-import { Services } from "./services";
+import { Destination } from "../components/destination";
+import { MainPage } from "../components/MainPage";
+import { Services } from "../components/services";
 
 const Home: NextPage = () => {
   return (
