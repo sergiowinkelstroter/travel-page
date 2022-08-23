@@ -7,10 +7,11 @@ import { Notify } from "../components/Notify";
 import { Destination } from "../components/destination";
 import { MainPage } from "../components/MainPage";
 import { Services } from "../components/services";
+import { ButtonToTop } from "../components/ButtonToTop";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="">
       <Head>
         <title>Responsive Travel Landing Page</title>
         <link rel="icon" href="/pro.ico" />
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <Destination />
       <Notify />
       <Footer />
+      <ButtonToTop />
     </div>
   );
 };
